@@ -50,7 +50,7 @@ router.get('/', function (req, res, next) {
 });
 
 router.post('/', function (req, res) {
-  var thank = "<h1>Thnak You for registering for Magnovite | Season 7</h1><br/>";
+  var thank = "<h1>Thank You for registering for Magnovite | Season 7</h1><br/>";
   if(index==0){
     index++;
     let list = ""
